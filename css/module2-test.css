@@ -1,0 +1,90 @@
+/********** Base styles **********/
+body {
+  font-family: 'Balsamiq Sans', cursive;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+
+h2{
+  float: right;
+  width: 30%;
+  margin-top: 0px;
+  font-size: 140%;
+  text-align: center;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.chicken {
+  background-color: #db7ea4;
+  letter-spacing: 2px;
+}
+.beef {
+  background-color: #e35656;
+  color: white;
+  letter-spacing: 2px;
+}
+.sushi {
+  background-color: #dbcb73;
+  letter-spacing: 2px;
+}
+
+section {
+  margin: 10px;
+  height: auto;
+  background-color: rgb(132, 128, 128);
+  display: block;
+  border: 4px solid black;
+}
+
+p {
+  margin: 25px 15px 10px 15px;
+  color: black;
+}
+
+
+/********** For desktop devices **********/
+@media (min-width: 992px) {
+  .block1, .block2, .block3 {
+    float: left;
+  }
+  .block1 {
+    width: 33.33%;
+  }
+  .block2 {
+    width: 33.33%;
+  }
+  .block3 {
+    width: 33.33%;
+  }
+}
+
+/********** For tablet devices  **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .block1, .block2, .block3 {
+    float: left;
+  }
+  .block1 {
+    width: 50%;
+  }
+  .block2 {
+    width: 50%;
+  }
+  .block3 {
+    width: 100%;
+  }
+}
+
+/********** For mobile devices **********/
+@media (max-width: 767px) {
+  .block1 {
+    width: 100%;
+  }
+  .block2 {
+    width: 100%;
+  }
+  .block3 {
+    width: 100%;
+  }
+}
